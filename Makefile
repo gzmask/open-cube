@@ -13,7 +13,7 @@ ifeq "$(shell uname)" "Darwin"
 	LDFLAGS = -framework Carbon -framework OpenGL -framework GLUT
 endif
 
-$(EXE) : test0001.c
+$(EXE) : src/test/test0001.c
 	gcc -o $@ $< $(CFLAGS) $(LDFLAGS)
 
 

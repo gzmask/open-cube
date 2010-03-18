@@ -1,4 +1,4 @@
-#this is the test case that can be launched with make and shows basic openGL stuff
+//this is the test case that can be launched with make and shows basic openGL stuff
 
 #ifdef __APPLE__
 #  include <OpenGL/gl.h>

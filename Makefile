@@ -14,6 +14,6 @@ ifeq "$(shell uname)" "Darwin"
 endif
 
 $(EXE) : src/test/test0001.c
-	gcc -o $@ $< $(CFLAGS) $(LDFLAGS)
+	gcc -o ./bin/$@ $< $(CFLAGS) $(LDFLAGS)
 
 

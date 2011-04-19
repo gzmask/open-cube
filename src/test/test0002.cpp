@@ -27,6 +27,7 @@ void display(void)
 	glVertex2f(-0.75f,  0.75f);
 	glEnd();
 
+	glFlush();
 	glutSwapBuffers();
 }
 

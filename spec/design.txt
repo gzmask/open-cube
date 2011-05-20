@@ -1,0 +1,13 @@
+	features of the open cube
+		Each player computer acts as a Cube server, which runs his own Cube (no central server required)
+		However there is one central server to store players' status and currencies
+		Each Cube room has 8 ports, connected to other player's Cube
+		There are two types of Cubes items: healing items and killing itmes
+			Healing items gives supplements
+			Healing items will only respawn for a defined period of time once consumed.
+			Killing items holds killing traps
+			kills in one player's owned Cube gains him currencies.
+			when player dies he will be returned to his owned cube with reduced status
+		Each Cube has a lock trigger. Only when this trigger been found, the 8 ports will be accessible
+		each port will only show how much the Cube worth(as how much the player spend on the items in this Cube)
+		player will be able to control their own cube in real time, even when they are in another cube
